@@ -20,7 +20,7 @@ if [[ ! -d ${P10K_LOCATION}/powerlevel10k ]]; then
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${P10K_LOCATION}/powerlevel10k
   echo "source ${P10K_LOCATION}/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
 fi
-source /home/node/.oh-my-zsh/custom/powerlevel10k/powerlevel10k/powerlevel10k.zsh-theme
+source $HOME/.oh-my-zsh/custom/powerlevel10k/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
