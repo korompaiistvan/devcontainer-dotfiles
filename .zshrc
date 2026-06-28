@@ -5,7 +5,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Default devcontainer zshrc file
+# Install Oh My Zsh
+if [[ ! command -v omz > /dev/null 2>$1 ]]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
 export ZSH=$HOME/.oh-my-zsh
 
 plugins=(git)
