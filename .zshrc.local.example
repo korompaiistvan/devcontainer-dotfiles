@@ -1,0 +1,9 @@
+# Host-specific shell overrides. This file is gitignored and never committed.
+# Copy this example to ~/.zshrc.local and uncomment what you need.
+#
+# Work-only tools (do NOT put these in the shared .zshrc):
+# export PATH="$HOME/.optimus/bin:$PATH"
+#
+# Machine-specific aliases, env vars, completions:
+# alias k="kubectl"
+# export EDITOR="nvim"

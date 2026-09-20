@@ -1,0 +1,11 @@
+# Apt packages for Debian/Ubuntu hosts and devcontainers.
+# Installed by ./install.sh (needs root or passwordless sudo).
+# NOTE: Debian/Ubuntu ship fd as `fd-find` (binary `fdfind`).
+# lazygit is NOT in default apt repos; install.sh links config only.
+# Optional: https://github.com/jesseduffield/lazygit#installation
+zsh
+git
+curl
+neovim
+ripgrep
+fd-find

@@ -1,0 +1,3 @@
+# Host-specific shell config (see .zshrc.local.example). Never commit the real one.
+.zshrc.local
+.DS_Store
